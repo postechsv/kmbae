@@ -83,4 +83,16 @@ body{
     content: ",";
 }
 
+.no-js .menu-container {
+  display: none;
+}
 
+@media screen and (min-width: 40em) {
+  .no-js .menu-container {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
