@@ -10,7 +10,7 @@
     </head>
 
     <body> 
-        <section id="about" data-magellan-target="about">
+        <section id="contact" data-magellan-target="contact">
           <div class="row">
               <div class="medium-3 columns">
                   <img class="thumbnail" id="mypic" width="250px" src="image/bae.png">
@@ -46,9 +46,8 @@
                   <div class="sticky" id="menu-items" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0" data-top-anchor="pgbegin:top" data-btm-anchor="pgend:bottom">
                       <nav data-magellan class="sticky-mag" data-bar-offset="20">
                           <ul class="top-bar vertical medium-horizontal menu expanded" >
+                              <li><a href="#contact">Contact</a></li>
                               <li><a href="#about">About</a></li>
-                              <li><a href="#research">Research</a></li>
-                              <li><a href="#teaching">Teaching</a></li>
                               <li><a href="#papers">Publication</a></li>
                               <li><a href="#bio">Biography</a></li>
                           </ul>
@@ -59,6 +58,9 @@
 
           <div id="pgbegin"></div>
 
+      </section>
+
+      <section id="about" data-magellan-target="about">
           <div class="column row">
               <h2>About</h2>
               <p>
@@ -66,14 +68,12 @@
               I study automatic formal analysis and software engineering methods to develop safe and reliable computer systems.
               </p>
           </div>
-      </section>
 
-      <section id="research" data-magellan-target="research">
           <div class="column row">
               <h2>Research Interests</h2>
               <ul>
-                  <li>Integration of formal analysis, robust system design, and software engineering approaches to develop safe, reliable, and secure hardware, software, and cyber-physical systems</li>
-                  <li>Scalable yet precise automatic analysis techniques, based on model checking, SMT, and computational logic</li>
+                  <li>Formal methods to develop safe, reliable, and secure hardware, software, and cyber-physical systems</li>
+                  <li>Scalable yet precise automatic analysis techniques, based on model checking, automated reasoning, and computational logic</li>
               </ul>
           </div>
           <div class="column row">
@@ -84,58 +84,95 @@
                 <li> <a href="http://maude.cs.illinois.edu/tools/lmc/">Maude LTL LMC Model Checker</a> </li>
               </ul>
           </div>
-      </section>
-          
-      <section id="teaching" data-magellan-target="teaching">
+
           <div class="column row">
               <h2>Teaching</h2>
               <ul>
-                  <li> 2016 Fall
+                  <li> CSED332: Software Design Methods
                   <ul>
-                      <li> CSED332: Software Design Methods </li>
+                      <li>2016 Fall, 2017 Fall, 2018 Fall </li>
                   </ul>
-                  <li> 2017 Spring
+		  </li>
+                  <li> CSED433: Logic in Computer Science 
                   <ul>
-                      <li> CSED507: Software Engineering </li>
+                      <li>2018 Spring</li>
                   </ul>
-                  <li> 2016 Fall
+		  </li>
+                  <li> CSED507: Software Engineering 
                   <ul>
-                      <li> CSED332: Software Design Methods </li>
+                      <li>2017 Spring </li>
+                  </ul>
+		  </li>
+                  <li> CSED490O: Automated Software Verification 
+                  <ul>
+                      <li>2016 Spring  </li>
                   </ul>
                   </li>
-                  <li> 2016 Spring 
+          </div>
+
+          <div class="column row">
+              <h2>Professional Activities</h2>
+              <ul>
+                  <li> Program committee co-chair </li>
                   <ul>
-                      <li> CSED490O: Automated Software Verification </li>
+                      <li><a href="http://sevlab.postech.ac.kr/facs18/">FACS 2018</a></li>
                   </ul>
-                  </li>
+
+                  <li> Program committee member </li>
+                  <ul>
+                      <li> FACS (<a href="http://facs2017.di.uminho.pt/">2017</a>, <a href="http://events.femto-st.fr/facs2016/">2016</a>, <a href="http://facs2015.ic.uff.br/">2015</a>), <a href="https://ksiresearchorg.ipage.com/seke/seke17.html">SEKE 2017</a>, WRLA (<a href="https://project.inria.fr/wrla18/">2018</a>, <a href="https://fmse.info.uaic.ro/event/wrla2016/">2016</a>), FTSCS (<a href="http://www.ftscs.org/">2018</a>, <a href="http://www.ftscs.org/2016">2016</a>, <a href="http://www.ftscs.org/2015">2015</a>, <a href="http://www.ftscs.org/2014">2014</a>), FMi 2015</li>
+                  </ul>
+
+                  <li> External reviewer</li>
+                  <ul>
+                      <li><a href="http://hscc2017.ece.illinois.edu/">HSCC 2017</a>, <a href="https://www.etaps.org/2016/tacas">TACAS 2016</a>, <a href="http://rdp15.mimuw.edu.pl/index.php?site=rta">RTA 2015</a>, <a href="https://www.etaps.org/2015/fase">FASE 2015</a></li>
+                  </ul>
+
+                  <li> Invited speaker and lecturer</li>
+                  <ul>
+                      <li><a href="https://www.javerianacali.edu.co/eventos/international-school-rewriting-2018">ISR 2018</a></li>
+                  </ul>
+              </ul>
           </div>
       </section>
 
       <section id="papers" data-magellan-target="papers">
           <div class="column row">
-             <h2>Thesis</h2>
-             <ul>
-                 <li>
-                     <span class="title">Rewriting-based model checking methods</span>
-                     <span class="ref">Department of Computer Science, University of Illinois at Urbana-Champaign, USA</span>
-                     <span class="year">2014</span>
-                     <span class="year">(<a href="http://hdl.handle.net/2142/50553">link</a>)</span>
-                 </li>
-             </ul>
-          </div>
-          <div class="column row">
              <h2>Publications</h2>
 
+             <div class="column row">
+                <h3>Books</h3>
+                <ul>
+                     <li>
+                         <span class="title">Formal Aspects of Component Software - 15th International Conference, FACS 2018, Pohang, South Korea, October 10-12, 2018, Proceedings</span>
+                         <span class="author">Kyungmin Bae and Peter Olveczky</span>
+                         <span class="ref">Lecture Notes in Computer Science 11222, Springer</span>
+                         <span class="year">2018</span>
+                     </li>
+                    <li>
+                        <span class="title">Rewriting-based model checking methods</span>
+                        <span class="ref">Kyungmin Bae, PhD Dissertation, Department of Computer Science, University of Illinois at Urbana-Champaign, USA</span>
+                        <span class="year">2014</span>
+                        <span class="year">(<a href="http://hdl.handle.net/2142/50553">link</a>)</span>
+                    </li>
+                </ul>
+             </div>
              <div>
                  <h3> Referred Conference Papers </h3>
                  <ol>
+                     <li>
+                         <span class="title">Bounded Model Checking of Signal Temporal Logic Properties Using Syntactic Separation</span>
+                         <span class="author">Kyungmin Bae and Jia Lee</span>
+                         <span class="ref">ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)</span>
+                         <span class="year">2019</span>
+                         <span class="year">(conditionally accepted)</span>
+                     </li>
                      <li>
                          <span class="title">Modular SMT-Based Analysis of Nonlinear Hybrid Systems</span>
                          <span class="author">Kyungmin Bae and Sicun Gao</span>
                          <span class="ref">International Conference on
 Formal Methods in Computer-Aided Design (FMCAD)</span>
                          <span class="year">2017</span>
-                         <span>(to appear)</span>
                      </li>
                      <li>
                          <span class="title">Guarded Terms for Rewriting modulo SMT</span>
